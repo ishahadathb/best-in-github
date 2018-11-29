@@ -1,5 +1,5 @@
 import React from "react";
-import apis from "../utils/api";
+import { Api } from "../utils/api";
 
 let UserPreview = props => {
   return (
@@ -30,11 +30,11 @@ export default class InformationForm extends React.Component {
   handleSub(e) {
     e.preventDefault();
 
-    apis.getTopUserBasedOnLocation(this.state.location).then(res => {
-      console.log(res);
-      this.setState({
-        data: res
-      });
+    Api.getTopUserBasedOnLocation(this.state.location).then(res => {
+      //console.log(res);
+      // this.setState({
+      //   data: res
+      // });
     });
   }
 

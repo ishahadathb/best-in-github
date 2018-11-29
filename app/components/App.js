@@ -10,6 +10,7 @@ import Battle from './Battle';
 
 export class App extends React.Component{
     render(){
+
         return(
             <Router>
                 <div className="container">
