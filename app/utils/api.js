@@ -1,8 +1,8 @@
 /**
  * Created by bipuk on 6/3/2017.
  */
-const clientId = 'df6bccde2f27d07598f5';
-const clientSecret = 'cf574edd1b8d7bca834b0b3048346cde2b6e04c7';
+const clientId = 'CLIENT_ID';
+const clientSecret = 'CLIENT_SECRET';
 
 const auth = `?client_id=${clientId}&client_secret=${clientSecret}`;
 import axios from "axios";
