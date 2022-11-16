@@ -29,9 +29,9 @@
     "babel-preset-env": "^1.4.0",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.1",
-    "html-webpack-plugin": "^2.28.0",
+    "html-webpack-plugin": "^5.5.0",
     "style-loader": "^0.17.0",
-    "webpack": "^2.5.1",
+    "webpack": "^5.75.0",
     "webpack-dev-server": "^2.4.5"
   }
 }
